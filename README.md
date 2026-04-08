@@ -1,6 +1,7 @@
 # QR Generator
 
 Um gerador de QR Code simples e intuitivo desenvolvido com HTML, CSS e JavaScript puro. Permite gerar códigos QR a partir de texto ou URLs de forma rápida e gratuita.
+<a href="https://santosajoao.github.io/qr-generator/" target="_blank">QR Generator</a>
 
 ## Funcionalidades
 
