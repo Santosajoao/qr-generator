@@ -1,22 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR-Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="index.js"></script>
-</head>
-<body>
-  <div class="container">
-    <div class="img">
-      <img src="">
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <img src="" />
+      </div>
+      <div class="form">
+        <input
+          type="text"
+          spellcheck="false"
+          placeholder="Digite texto ou URL"
+          autocomplete="off"
+        />
+        <div class="size-inputs">
+          <!-- <label for="width">Largura:</label> -->
+          <input
+            type="number"
+            id="width"
+            min="100"
+            max="2000"
+            placeholder="Largura"
+          />
+          <!-- <label for="height">Altura:</label> -->
+          <input
+            type="number"
+            id="height"
+            min="100"
+            max="2000"
+            placeholder="Altura"
+          />
+        </div>
+        <button>Gerar QR Code</button>
+      </div>
     </div>
-    <div class="form">
-      <input type="text" spellcheck="false" placeholder="Enter text or url" autocomplete="off">
-      <button>Generate QR Code</button>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
